@@ -1,5 +1,5 @@
 import random
-from pype_dreams import pype_dreamer
+from PypeDreams import pype_dreamer
 
 string = ''
 i = 0

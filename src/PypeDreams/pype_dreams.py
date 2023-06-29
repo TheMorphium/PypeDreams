@@ -1,9 +1,9 @@
 import hashlib
-from pype_dreams.compress import compress
-from pype_dreams.adjectives import adjectives
-from pype_dreams.animals import animals
-from pype_dreams.colors import colors
-from pype_dreams.clothing import clothing
+from PypeDreams.compress import compress
+from PypeDreams.adjectives import adjectives
+from PypeDreams.animals import animals
+from PypeDreams.colors import colors
+from PypeDreams.clothing import clothing
 
 def to_styled(words, style):
     styled_words = []

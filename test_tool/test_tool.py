@@ -1,9 +1,9 @@
-from pype_dreams import pype_dreamer
-from pype_dreams.compress import compress
-from pype_dreams.adjectives import adjectives
-from pype_dreams.colors import colors
-from pype_dreams.animals import animals
-from pype_dreams.clothing import clothing
+from PypeDreams import pype_dreamer
+from PypeDreams.compress import compress
+from PypeDreams.adjectives import adjectives
+from PypeDreams.colors import colors
+from PypeDreams.animals import animals
+from PypeDreams.clothing import clothing
 
 
 def describe_pype_dreamer():
