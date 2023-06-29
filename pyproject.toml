@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "pycardano"
+version = "0.9.0"
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache :: 2.0",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+description = "Pype Dreams generates easy to remember animal-based hash digests"
+homepage = "https://github.com/themorphium/pype_dreams"
+keywords = ["python", "cardano", "naming", "hash"]
+authors = ["Huth S0lo <john@themorphium.io>"]
+readme = "README.md"
+repository = "https://github.com/themorphium"
+license = "Apache 2.0"
+
+[tool.poetry.dependencies]
+python = "^3.7"
