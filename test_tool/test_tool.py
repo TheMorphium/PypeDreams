@@ -8,19 +8,19 @@ from pype_dreams.clothing import clothing
 
 def describe_anmial_hash():
     print('should turn arbitrary string input into an animal hash')
-    expect_val = 'Rapid Grey Rattlesnake'
+    expect_val = 'Virtual Pear Wombat Wearing a Caftan'
     print(animal_hash('my ugly input string') == expect_val)
 
     print('should use a specified separator')
-    expect_val = 'Rapid-Grey-Rattlesnake'
+    expect_val = 'Virtual-Pear-Wombat-Wearing-a-Caftan'
     print(animal_hash('my ugly input string', separator='-') == expect_val)
 
     print('should support lowercased style')
-    expect_val = 'rapid grey rattlesnake'
+    expect_val = 'virtual pear wombat wearing a caftan'
     print(animal_hash('my ugly input string', style='lowercase') == expect_val)
 
     print('should support uppercased style')
-    expect_val = 'RAPID GREY RATTLESNAKE'
+    expect_val = 'VIRTUAL PEAR WOMBAT WEARING a CAFTAN'
     print(animal_hash('my ugly input string',style='uppercase') == expect_val)
 
     print('should throw an error if passed an unknown style')
