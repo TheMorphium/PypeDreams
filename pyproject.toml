@@ -1,24 +1,28 @@
-[tool.poetry]
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
 name = "PypeDreams"
 version = "0.0.0"
-classifiers = [
-    "Intended Audience :: Developers",
-    "License :: OSI Approved :: Apache :: 2.0",
-    "Natural Language :: English",
-    "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.7",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
-]
 description = "PypeDreams generates easy to remember animal-based hash digests"
-homepage = "https://github.com/themorphium/pype_dreams"
-keywords = ["python", "cardano", "naming", "hash"]
-authors = ["Huth S0lo <john@themorphium.io>"]
 readme = "README.md"
-repository = "https://github.com/themorphium"
-license = "Apache 2.0"
+authors = ["Huth S0lo <john@themorphium.io>"]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: Apache 2.0",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["python", "cardano", "naming", "hash"]
 
-[tool.poetry.dependencies]
-python = "^3.7"
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = ["black", "bumpver", "isort", "pip-tools", "pytest"]
+
+[project.urls]
+Homepage = "https://github.com/themorphium/pype_dreams"
+
+[project.scripts]
+realpython = "reader.__main__:main"
