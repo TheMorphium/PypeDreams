@@ -7,7 +7,7 @@ needs to be displayed in a user interface.
 ## Example
 
 ```
-from pype_dreams import pype_dreamer
+from PypeDreams import pype_dreamer
 
 digest = pype_dreamer('my ugly input string', style='lowercase')
 print(digest)

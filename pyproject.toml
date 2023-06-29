@@ -12,7 +12,7 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
 ]
-description = "Pype Dreams generates easy to remember animal-based hash digests"
+description = "PypeDreams generates easy to remember animal-based hash digests"
 homepage = "https://github.com/themorphium/pype_dreams"
 keywords = ["python", "cardano", "naming", "hash"]
 authors = ["Huth S0lo <john@themorphium.io>"]
