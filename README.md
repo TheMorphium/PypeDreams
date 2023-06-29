@@ -11,7 +11,7 @@ from pype_dreams import pype_dreamer
 
 digest = pype_dreamer('my ugly input string', style='lowercase')
 print(digest)
-# => rapid grey rattlesnake
+# => virtual pear wombat wearing a caftan
 
 # Tests
 from test_tool import test_tool
