@@ -1,4 +1,4 @@
-# Pype Dreams - Is a pythonic Derivative of Helium's Angry Purple Tiger
+# Pype Dreams
 Pype Dreams generates animal-based hash digests meant to be memorable
 and human-readable. Pype Dreams is apt for anthropomorphizing project
 names, crypto addresses, UUIDs, or any complex string of characters that
