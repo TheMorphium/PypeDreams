@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "PypeDreams"
-version = "0.0.1"
+version = "0.0.0"
 classifiers = [
     "Intended Audience :: Developers",
     "License :: OSI Approved :: Apache :: 2.0",
