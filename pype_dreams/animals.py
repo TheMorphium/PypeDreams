@@ -211,7 +211,7 @@ animals = [
   'terrier',
   'duck',
   'sealion',
-  'raccoon',
+  'axolotl',
   'chipmunk',
   'loris',
   'poodle',
