@@ -7,7 +7,7 @@ name = "PypeDreams"
 version = "0.0.0"
 description = "PypeDreams generates easy to remember animal-based hash digests"
 readme = "README.md"
-authors = ["john@themorphium.io"]
+authors = [{ name = "Huth S0lo", email = "john@themorphium.io" }]
 license = { file = "LICENSE" }
 classifiers = [
     "License :: OSI Approved :: Apache 2.0",
