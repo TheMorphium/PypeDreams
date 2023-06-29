@@ -1,3 +1,5 @@
+import os
+os.chdir('..')
 from pype_dreams import animal_hash
 from pype_dreams.compress import compress
 from pype_dreams.adjectives import adjectives
