@@ -44,15 +44,16 @@ def describe_compress():
 
 def describe_wordlist():
     print('should contain no duplicate entries')
-    word_list = adjectives + colors + animals + clothing
-    word_count = len(word_list)
-    test_list, dupes = [], False
-    for word in word_list:
-        if word not in test_list:
-            test_list.append(word)
-        else:
-            dupes = True
-            print(f'{word} is a duplicate')
+    word_lists = [adjectives, colors, animals, clothing]
+    word_count = len(adjectives + colors + animals + clothing)
+    for word_list in word_lists:
+        test_list, dupes = [], False
+        for word in word_list:
+            if word not in test_list:
+                test_list.append(word)
+            else:
+                dupes = True
+                print(f'{word} is a duplicate')
     print(word_count)
     print(word_count == (256 * 4))
     if not dupes:
