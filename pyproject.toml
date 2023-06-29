@@ -22,15 +22,3 @@ license = "Apache 2.0"
 
 [tool.poetry.dependencies]
 python = "^3.7"
-
-
-[project]
-name = "PypeDreams"
-authors = [{ name = "Huth S0lo", email = "john@themorphium.io" }]
-readme = "README.md"
-license = { file = "LICENSE" }
-classifiers = [
-    "License :: OSI Approved :: Apache 2.0",
-    "Programming Language :: Python :: 3",
-]
-dynamic = ["version", "description"]
