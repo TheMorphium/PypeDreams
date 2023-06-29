@@ -1,5 +1,5 @@
-# Pype Dreams
-Pype Dreams generates animal-based hash digests meant to be memorable
+# PypeDreams
+PypeDreams generates animal-based hash digests meant to be memorable
 and human-readable. Pype Dreams is apt for anthropomorphizing project
 names, crypto addresses, UUIDs, or any complex string of characters that
 needs to be displayed in a user interface.
