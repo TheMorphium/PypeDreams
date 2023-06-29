@@ -32,11 +32,12 @@ def animal_hash(input, style='titlecase', separator=' '):
     adjective = adjectives[compressed[0]]
     color = colors[compressed[1]]
     animal = animals[compressed[2]]
-    clothes = clothing[compressed[4]]
-    styled_words = to_styled([adjective, color, animal, clothes], style)
+    clothes = clothing[compressed[3]]
+    additional_text = 'wearing'
+    styled_words = to_styled([adjective, color, animal, additional_text, clothes], style)
 
 
-    return styled_words[0] + separator + styled_words[1] + separator + styled_words[2] + separator + 'wearing' + separator + 'a' + separator + styled_words[3]
+    return styled_words[0] + separator + styled_words[1] + separator + styled_words[2] + separator + styled_words[3] + separator + 'a' + separator + styled_words[4]
 
 
 
