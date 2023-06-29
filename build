@@ -1,4 +1,4 @@
-python -m pip install -e .
+pip install -e .
 python -m build
 twine check dist/*
 twine upload -r testpypi dist/*
