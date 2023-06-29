@@ -1,4 +1,4 @@
-from pype_dreams import animal_hash
+from pype_dreams import pype_dreamer
 from pype_dreams.compress import compress
 from pype_dreams.adjectives import adjectives
 from pype_dreams.colors import colors
@@ -6,26 +6,26 @@ from pype_dreams.animals import animals
 from pype_dreams.clothing import clothing
 
 
-def describe_animal_hash():
+def describe_pype_dreamer():
     print('should turn arbitrary string input into an animal hash')
     expect_val = 'Virtual Pear Wombat Wearing a Caftan'
-    print(animal_hash('my ugly input string') == expect_val)
+    print(pype_dreamer('my ugly input string') == expect_val)
 
     print('should use a specified separator')
     expect_val = 'Virtual-Pear-Wombat-Wearing-a-Caftan'
-    print(animal_hash('my ugly input string', separator='-') == expect_val)
+    print(pype_dreamer('my ugly input string', separator='-') == expect_val)
 
     print('should support lowercased style')
     expect_val = 'virtual pear wombat wearing a caftan'
-    print(animal_hash('my ugly input string', style='lowercase') == expect_val)
+    print(pype_dreamer('my ugly input string', style='lowercase') == expect_val)
 
     print('should support uppercased style')
     expect_val = 'VIRTUAL PEAR WOMBAT WEARING a CAFTAN'
-    print(animal_hash('my ugly input string',style='uppercase') == expect_val)
+    print(pype_dreamer('my ugly input string',style='uppercase') == expect_val)
 
     print('should throw an error if passed an unknown style')
     try:
-        animal_hash('xyz', style='garbage')
+        pype_dreamer('xyz', style='garbage')
     except:
         print('/Unknown style/')
 
@@ -63,6 +63,6 @@ def describe_wordlist():
     # Those duplicates will remain until that library is updated.
 
 
-describe_animal_hash()
+describe_pype_dreamer()
 describe_compress()
 describe_wordlist()

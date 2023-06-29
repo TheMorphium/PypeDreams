@@ -7,9 +7,9 @@ needs to be displayed in a user interface.
 ## Example
 
 ```
-from pype_dreams import animal_hash
+from pype_dreams import pype_dreamer
 
-digest = animal_hash('my ugly input string', style='lowercase')
+digest = pype_dreamer('my ugly input string', style='lowercase')
 print(digest)
 # => rapid grey rattlesnake
 
