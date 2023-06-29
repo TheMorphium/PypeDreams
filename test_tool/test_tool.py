@@ -1,12 +1,12 @@
-from ..pype_dreams import animal_hash
-from ..pype_dreams.compress import compress
-from ..pype_dreams.adjectives import adjectives
-from ..pype_dreams.colors import colors
-from ..pype_dreams.animals import animals
-from ..pype_dreams.clothing import clothing
+from pype_dreams import animal_hash
+from pype_dreams.compress import compress
+from pype_dreams.adjectives import adjectives
+from pype_dreams.colors import colors
+from pype_dreams.animals import animals
+from pype_dreams.clothing import clothing
 
 
-def describe_anmial_hash():
+def describe_animal_hash():
     print('should turn arbitrary string input into an animal hash')
     expect_val = 'Virtual Pear Wombat Wearing a Caftan'
     print(animal_hash('my ugly input string') == expect_val)
@@ -63,6 +63,6 @@ def describe_wordlist():
     # Those duplicates will remain until that library is updated.
 
 
-describe_anmial_hash()
+describe_animal_hash()
 describe_compress()
 describe_wordlist()
