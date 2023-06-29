@@ -1,5 +1,5 @@
 pip install -e .
-python -m build
+python3 -m build
 twine check dist/*
 twine upload -r testpypi dist/*
 twine upload -r pypi dist/*
