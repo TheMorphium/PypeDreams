@@ -1,8 +1,9 @@
 from pype_dreams import animal_hash
-from pype_dreams import compress
-from pype_dreams import adjectives
-from pype_dreams import colors
-from pype_dreams import animals
+from pype_dreams.compress import compress
+from pype_dreams.adjectives import adjectives
+from pype_dreams.colors import colors
+from pype_dreams.animals import animals
+from pype_dreams.clothing import clothing
 
 
 def describe_anmial_hash():
@@ -43,7 +44,7 @@ def describe_compress():
 
 def describe_wordlist():
     print('should contain no duplicate entries')
-    word_list = adjectives + colors + animals
+    word_list = adjectives + colors + animals + clothing
     word_count = len(word_list)
     test_list, dupes = [], False
     for word in word_list:
@@ -53,7 +54,7 @@ def describe_wordlist():
             dupes = True
             print(f'{word} is a duplicate')
     print(word_count)
-    print(word_count == (256 * 3))
+    print(word_count == (256 * 4))
     if not dupes:
         print('No duplicates found')
 
