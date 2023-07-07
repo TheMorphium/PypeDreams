@@ -13,6 +13,10 @@ digest = pype_dreamer('my ugly input string', style='lowercase')
 print(digest)
 # => virtual pear wombat wearing a caftan
 
+digest = pype_dreamer('addr1q9f082s3z98tq258ezp20v9pvcdwe4a55n2lxx54sywv9j8vq4tslucax99h9k8a9k2qykdgj4e3xa8a5fqrrl5v7xgqvhdpwx')
+print(digest)
+# => Zesty Amethyst Ostrich Wearing a Palazzo Pants
+
 # Tests
 from test_tool import test_tool
 
