@@ -1,10 +1,5 @@
 import random
 from PypeDreams import pype_dreamer
 
-string = ''
-i = 0
-while i < 100:
-  string += f'{random.randint(0,9)}'
-  i += 1
-
+string = ''.join(f'{random.randint(0, 9)}' for _ in range(100))
 print(pype_dreamer(string))
